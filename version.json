@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "1.0.16",
-    "url":  "https://github.com/Stealan1/Skates/releases/download/v1.0.16/SkatesD2RHub.zip",
-    "notes":  "Fixed hooks being locked when loading from accounts//team load. "
+    "version":  "1.0.17",
+    "url":  "https://github.com/Stealan1/Skates/releases/download/v1.0.17/SkatesD2RHub.zip",
+    "notes":  "Actually fixing the Login with Password issue"
 }
