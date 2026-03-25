@@ -1,5 +1,5 @@
 ﻿{
     "version":  "1.0.18",
     "url":  "https://github.com/Stealan1/Skates/releases/download/v1.0.17/SkatesD2RHub.zip",
-    "notes":  "Actually fixing the Login with Password issue"
+    "notes":  "Added loop settings for bobarb, and timing settings for bobarb. Allowed for nightly builds (experimental) added maphack, inventory scan and item reader - but all are locked because theyre not ready. But they are hidden behind the add-on menu."
 }
