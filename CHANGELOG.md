@@ -1,3 +1,8 @@
+## v1.4.9 (2026-03-26)
+Update stability
+
+User Link to Key
+
 ## v1.4.8 (2026-03-26)
 Another res fix
 
