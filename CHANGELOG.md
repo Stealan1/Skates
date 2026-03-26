@@ -1,3 +1,10 @@
+## v1.4.6 (2026-03-26)
+- New “Updates & Rollback” panel with current version and historical previous release items
+- Each item shows version and notes preview
+- Revert button with confirmation flow
+- Downloads and validates selected version in temporary space
+- Preserves settings/data and restarts app automatically on apply
+
 ## v0.0.2-nightly.20260326 (2026-03-26)
 test res
 
