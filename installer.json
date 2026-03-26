@@ -1,7 +1,1 @@
-﻿{
-    "nightly":  {
-                    "version":  "1.0.17-nightly.20260325",
-                    "installer_url":  "https://github.com/Stealan1/Skates/releases/download/v1.0.17-nightly.20260325/SkatesD2RHub_Setup.exe",
-                    "notes":  "Adding loops to BO barb in settings, and making the timing configurable"
-                }
-}
+{"nightly":{"installer_url":"https://github.com/Stealan1/Skates/releases/download/v0.0.2-nightly.20260326/SkatesD2RHub.zip","version":"0.0.2-nightly.20260326","notes":"test res"}}
