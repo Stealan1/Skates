@@ -1,3 +1,6 @@
+## v1.4.7 (2026-03-26)
+Roll back improved.
+
 ## v1.4.6 (2026-03-26)
 - New “Updates & Rollback” panel with current version and historical previous release items
 - Each item shows version and notes preview
