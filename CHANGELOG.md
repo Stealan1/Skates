@@ -1,3 +1,6 @@
+## v1.4.19 (2026-03-27)
+Fixing char read with token login
+
 ## v1.4.18 (2026-03-27)
 
 
