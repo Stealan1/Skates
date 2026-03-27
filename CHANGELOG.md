@@ -1,3 +1,6 @@
+## v1.5.0 (2026-03-27)
+I think I managed to get char select to work!
+
 ## v1.4.20 (2026-03-27)
 - Logging in with a token is now more reliable and faster                                                               
   - The installer now shows the correct icon
