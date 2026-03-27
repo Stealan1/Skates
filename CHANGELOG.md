@@ -1,3 +1,8 @@
+## v1.4.20 (2026-03-27)
+- Logging in with a token is now more reliable and faster                                                               
+  - The installer now shows the correct icon
+  - The download link for the installer will never change going forward
+
 ## v1.4.19 (2026-03-27)
 Fixing char read with token login
 
