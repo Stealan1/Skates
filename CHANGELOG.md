@@ -1,3 +1,6 @@
+## v1.5.1 (2026-03-28)
+Runtime fix (build missed a file)
+
 ## v1.5.0 (2026-03-27)
 I think I managed to get char select to work!
 
