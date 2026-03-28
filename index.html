@@ -165,7 +165,7 @@
     position: relative;
     z-index: 2;
     display: grid;
-    grid-template-columns: 480px 1fr;
+    grid-template-columns: 1fr;
     gap: 0;
     align-items: center;
     max-width: 1200px;
@@ -185,12 +185,13 @@
 
   /* logo side */
   .hero-logo-wrap {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    animation: fade-up 1s 0.2s forwards;
+    position: fixed;
+    top: 80px;
+    left: 20px;
+    width: 188px;
+    z-index: 101;
+    opacity: 1;
+    animation: none;
   }
 
   .hero-logo-img {
@@ -215,8 +216,7 @@
 
   /* text side */
   .hero-text {
-    padding-left: 56px;
-    text-align: left;
+    text-align: center;
   }
 
   .hero-text .pill { margin-bottom: 24px; }
@@ -230,9 +230,9 @@
     animation: fade-up 0.8s 0.5s forwards;
   }
 
-  .hero-title .line1 { display: block; color: var(--text-primary); }
+  .hero-title .line1 { display: inline-block; color: var(--text-primary); }
   .hero-title .line2 {
-    display: block;
+    display: inline-block;
     background: linear-gradient(135deg, var(--fire-deep) 0%, var(--fire-bright) 50%, var(--gold) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -244,7 +244,7 @@
     font-style: italic;
     color: var(--text-secondary);
     max-width: 520px;
-    margin: 0 0 40px;
+    margin: 0 auto 40px;
     font-weight: 300;
     opacity: 0;
     animation: fade-up 0.8s 0.7s forwards;
@@ -254,6 +254,7 @@
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
+    justify-content: center;
     opacity: 0;
     animation: fade-up 0.8s 0.9s forwards;
   }
@@ -334,6 +335,7 @@
     padding: 100px 48px;
     max-width: 1200px;
     margin: 0 auto;
+    text-align: center;
   }
 
   .section-label {
@@ -344,6 +346,7 @@
     color: var(--fire);
     margin-bottom: 12px;
     display: block;
+    text-align: center;
   }
 
   .section-title {
@@ -351,6 +354,7 @@
     font-weight: 800;
     margin-bottom: 20px;
     color: var(--text-primary);
+    text-align: center;
   }
 
   .section-lead {
@@ -359,7 +363,8 @@
     color: var(--text-secondary);
     font-weight: 300;
     max-width: 640px;
-    margin-bottom: 64px;
+    margin: 0 auto 64px;
+    text-align: center;
   }
 
   /* ── STATS BAR ── */
@@ -419,6 +424,7 @@
     padding: 40px 32px;
     position: relative;
     transition: background 0.3s;
+    text-align: center;
   }
 
   .flow-card:hover { background: var(--bg-raised); }
@@ -474,6 +480,7 @@
     overflow: hidden;
     transition: border-color 0.3s, transform 0.3s;
     cursor: default;
+    text-align: center;
   }
 
   .feature-card::before {
@@ -582,6 +589,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 48px;
     align-items: center;
+  }
+
+  .macro-text {
+    text-align: center;
   }
 
   .macro-mockup {
@@ -854,6 +865,7 @@
     padding: 28px 24px;
     transition: all 0.3s;
     position: relative;
+    text-align: center;
   }
 
   .team-card:hover { border-color: var(--border-bright); background: var(--bg-raised); }
@@ -1036,7 +1048,7 @@
   /* ── RESPONSIVE ── */
   @media (max-width: 1000px) {
     .hero-content { grid-template-columns: 1fr; }
-    .hero-logo-wrap { max-width: 300px; margin: 0 auto 8px; }
+    .hero-logo-wrap { width: 125px; top: 80px; left: 10px; }
     .hero-text { padding-left: 0; text-align: center; }
     .hero-text .hero-sub { margin: 0 auto 40px; }
     .hero-actions { justify-content: center; }
@@ -1181,13 +1193,12 @@
       <div class="hero-logo-glow"></div>
     </div>
     <div class="hero-text">
-      <div class="pill">v1.5.1 · Diablo II Resurrected</div>
       <h1 class="hero-title">
         <span class="line1">Play the Game.</span>
         <span class="line2">Not the Lobby.</span>
       </h1>
       <p class="hero-sub">
-        SkatesD2RHub automates your entire D2R game flow — across up to 8 windows simultaneously, at any resolution, from any system. Download free and try it for 3 days, no purchase needed.
+        SkatesD2RHub automates your entire D2R game flow across all your D2R windows simultaneously, at any resolution. Built as a QoL tool for actual D2R players. Download free and try it for 3 days, no purchase needed.
       </p>
       <div class="hero-actions">
         <a href="https://github.com/Stealan1/Skates/releases/download/latest-installer/SkatesD2RHub_Setup.exe" class="btn-primary">
@@ -1361,8 +1372,8 @@
     </div>
     <div class="feature-card">
       <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><polyline points="8 21 12 17 16 21"/><line x1="12" y1="17" x2="12" y2="3"/></svg>
-      <div class="feature-title">Resource Reduction — Free &amp; Auto-Installed</div>
-      <p class="feature-desc">Two tools are bundled that reduce the game's resource load, making D2R run leaner when you have multiple instances open. Both are free, and the app downloads and installs them for you automatically — no manual setup.</p>
+      <div class="feature-title">Low Ressource Mods</div>
+      <p class="feature-desc">Two mods are bundled that reduce the game's resource load, making D2R run leaner when you have multiple instances open. Both are free, and the app downloads and installs them for you automatically — no manual setup.</p>
       <span class="feature-tag">Performance</span>
     </div>
     <div class="feature-card">
@@ -1426,7 +1437,7 @@
 <!-- ── MACRO MAKER ── -->
 <section id="macros">
   <div class="macro-layout">
-    <div class="reveal">
+    <div class="reveal macro-text">
       <span class="section-label">Macro Maker</span>
       <h2 class="section-title">Record Any Route. Play It Back Forever.</h2>
       <div class="fire-line"></div>
