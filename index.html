@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SkatesD2RHub · Diablo II Resurrected</title>
+<title>SkatesD2RHub · Diablo II Resurrected Automation</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 <style>
@@ -1071,7 +1071,17 @@
     .community-grid { grid-template-columns: 1fr !important; }
   }
 
-  /* ── INTERACTIVE UI PREVIEW ── */
+  @media (max-width: 600px) {
+    body { font-size: 20px; text-align: center; }
+    nav { position: static; padding: 20px 12px; }
+    section { padding: 40px 12px; }
+    .section-title { font-size: 40px; }
+    .feature-title { font-size: 24px; }
+    .feature-desc { font-size: 18px; }
+    .btn-primary { font-size: 16px; padding: 16px 32px; }
+    .hero-sub { font-size: 20px; }
+    .nav-logo { font-size: 20px; }
+  }
   .ui-preview {
     background: var(--bg-panel);
     border: 1px solid var(--border);
