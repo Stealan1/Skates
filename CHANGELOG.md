@@ -1,3 +1,6 @@
+## v1.5.3 (2026-03-28)
+Added launch to accounts
+
 ## v1.5.1 (2026-03-28)
 Runtime fix (build missed a file)
 
