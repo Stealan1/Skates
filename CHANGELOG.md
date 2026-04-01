@@ -1,3 +1,11 @@
+## v1.5.4 (2026-04-02)
+Too many small changes....
+
+fixed the char select again, hopefully better
+fixed the lagg on login with skatesmod
+added stagger to macros
+probably also other stuff
+
 ## v1.5.3 (2026-03-28)
 Added launch to accounts
 
