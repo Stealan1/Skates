@@ -1,3 +1,12 @@
+## v1.5.5 (2026-04-02)
+Added hotkey change for macros
+Removed "Running instances" from accounts menu
+Removed "Add-ons"
+
+FEATURE REQUEST:
+Change team members roles from accounts\\teams menu.  
+Done sir :)
+
 ## v1.5.4 (2026-04-02)
 Too many small changes....
 
