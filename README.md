@@ -11,6 +11,10 @@ Once configured, the system handles the entire flow.
 <img width="1280" height="820" alt="Skærmbillede 2026-04-01 184716" src="https://github.com/user-attachments/assets/d0265dbc-1675-4021-aeeb-00ccfb528cf7" />
 
 
+https://github.com/user-attachments/assets/481b659b-3314-4123-bacf-4a0c147b3b1b
+
+
+
 ## Core Capabilities
 
 * Automated game creation and joining across all clients
