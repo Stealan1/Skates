@@ -1,3 +1,6 @@
+## v1.5.6 (2026-04-04)
+Enhanced the resolution settings
+
 ## v1.5.5 (2026-04-02)
 Added hotkey change for macros
 Removed "Running instances" from accounts menu
