@@ -1,3 +1,5 @@
+Link to discord: https://discord.gg/GttDAsrQP8
+
 # Skates D2R Hub
 
 **P8. Full Control. Zero Reliance.**
