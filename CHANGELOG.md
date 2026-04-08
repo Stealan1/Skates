@@ -1,3 +1,20 @@
+## v2.0.0 (2026-04-08)
+Freemium mode UNLOCKED!
+Now you can use the loader // new game feature for FREE!
+However, automation is locked to one window only!
+
+Gamehosting menu is READY!
+
+When you press the NG hotkey, your char will automake new game, and tell my team to move with!
+
+- Booking
+- Ingame management (NG, BO, Scan)
+- Account status
+- Calendar (even with press to book timeslots)
+- live-updated team availability
+
+!! No End, Extend, Fillers or ingame fix buttons yet. They may come !!
+
 ## v1.5.6 (2026-04-04)
 Enhanced the resolution settings
 
