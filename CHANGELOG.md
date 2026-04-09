@@ -1,3 +1,6 @@
+## v3.1.0 (2026-04-09)
+Speeding up the logins!
+
 ## v3.0.0 (2026-04-08)
 Freemium mode UNLOCKED!
 Now you can use the loader // new game feature for FREE!
