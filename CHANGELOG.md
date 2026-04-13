@@ -1,3 +1,18 @@
+## v3.2.0 (2026-04-13)
+What's new
+
+Help / Readme — rewritten
+All help sections have been rewritten to reflect how the app actually works. Account setup, teams, hotkeys, quick launch, the P8 + follow automation, the license/trial flow, and the update process are all now accurate and easier to follow.
+
+Overview — Create & Join renamed
+The automation mode previously called "P8 + Follow Mode" is now split into two clearly named modes: Create Mode (your group creates and cycles games) and Join Mode (your group follows a running game sequence). The naming now matches what you're actually doing.
+
+Trial & Payment — new flow
+The upgrade and payment experience has been redesigned. Free accounts now see a Try Premium button that offers either a 3-day trial or direct purchase. Payment options (JSP, PayPal, Revolut, Crypto) open in a guided dialog that walks you through to confirmation. License activation is accessible at any point without restarting.
+
+Main Account App — new
+A separate lightweight app is now available for the player running the main character. It pairs with your filler PC and lets you trigger actions like NG and BO directly from hotkeys on your own machine — without needing the full tool open on that side. Connection status is shown at a glance and the hotkeys are fully configurable.
+
 ## v3.1.0 (2026-04-09)
 Speeding up the logins!
 
