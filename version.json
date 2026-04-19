@@ -1,1 +1,11 @@
-{"version":"3.2.0","url":"https://github.com/Stealan1/Skates/releases/download/v3.2.0/SkatesD2RHub.zip","notes":"What\u0027s new\r\n\r\nHelp / Readme — rewritten\r\nAll help sections have been rewritten to reflect how the app actually works. Account setup, teams, hotkeys, quick launch, the P8 + follow automation, the license/trial flow, and the update process are all now accurate and easier to follow.\r\n\r\nOverview — Create \u0026 Join renamed\r\nThe automation mode previously called \"P8 + Follow Mode\" is now split into two clearly named modes: Create Mode (your group creates and cycles games) and Join Mode (your group follows a running game sequence). The naming now matches what you\u0027re actually doing.\r\n\r\nTrial \u0026 Payment — new flow\r\nThe upgrade and payment experience has been redesigned. Free accounts now see a Try Premium button that offers either a 3-day trial or direct purchase. Payment options (JSP, PayPal, Revolut, Crypto) open in a guided dialog that walks you through to confirmation. License activation is accessible at any point without restarting.\r\n\r\nMain Account App — new\r\nA separate lightweight app is now available for the player running the main character. It pairs with your filler PC and lets you trigger actions like NG and BO directly from hotkeys on your own machine — without needing the full tool open on that side. Connection status is shown at a glance and the hotkeys are fully configurable.","nightly":false}
+{"version":"3.3.0","url":"https://github.com/Stealan1/Skates/releases/download/v3.3.0/SkatesD2RHub.zip","notes":"Memory Manager — D2R instances are automatically trimmed when they exceed the configured RAM limit or timer interval. Long sessions stay smoother without manual intervention.
+
+Bobarb skill keys — The Battle Command, Battle Orders, and Shout keys used during BO can now be changed in settings instead of being fixed to F1/F2/F3.
+
+Bobarb coords — The WP and River of Flame destination clicks can be repositioned per-setup via the Edit bobarb coords panel, with a reset button to restore defaults.
+
+Char select OCR — When an account has a character assigned, the client now scans the character select screen, finds that character by name, clicks it to select it, then clicks the lobby button. Previously it would just click lobby with whatever character happened to be highlighted.
+
+Hotkey Fix - Added more hotkeys to your app. Now you can assign crtl + mousex2 ie.
+
+Drop From Stash Added a simple macro to yall.","nightly":false}
