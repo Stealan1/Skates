@@ -1,3 +1,16 @@
+## v3.4.0 (2026-04-19)
+Memory Manager — D2R instances are automatically trimmed when they exceed the configured RAM limit or timer interval. Long sessions stay smoother without manual intervention.
+
+Bobarb skill keys — The Battle Command, Battle Orders, and Shout keys used during BO can now be changed in settings instead of being fixed to F1/F2/F3.
+
+Bobarb coords — The WP and River of Flame destination clicks can be repositioned per-setup via the Edit bobarb coords panel, with a reset button to restore defaults.
+
+Char select OCR — When an account has a character assigned, the client now scans the character select screen, finds that character by name, clicks it to select it, then clicks the lobby button. Previously it would just click lobby with whatever character happened to be highlighted.
+
+Hotkey Fix - Added more hotkeys to your app. Now you can assign crtl + mousex2 ie.
+
+Drop From Stash Added a simple macro to yall.
+
 ##  (2026-04-19)
 
 
