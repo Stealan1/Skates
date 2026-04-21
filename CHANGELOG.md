@@ -1,3 +1,12 @@
+## v3.5.0 (2026-04-21)
+Steam Login support
+  You can now log in D2R accounts via Steam directly from the Hub. Add your Steam username and password to an account,
+  select "Steam Login" as the auth method, and launch as normal.
+
+  Team launch with Steam accounts
+  Steam accounts work in team/Quick Launch slots. Accounts are launched one at a time — each waits for the previous to
+  reach character select before starting, so Steam isn't blocked by a prior session.
+
 ## v3.4.0 (2026-04-19)
 Memory Manager — D2R instances are automatically trimmed when they exceed the configured RAM limit or timer interval. Long sessions stay smoother without manual intervention.
 
