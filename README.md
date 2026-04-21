@@ -8,6 +8,8 @@ Run up to 8 Diablo II: Resurrected clients on a single machine and achieve true 
 
 No waiting. No coordination. No dependency on other players.
 
+100% configured for multiboxing with STEAM as well. 
+
 Once configured, the system handles the entire flow.
 
 <img width="1280" height="820" alt="Skærmbillede 2026-04-01 184716" src="https://github.com/user-attachments/assets/d0265dbc-1675-4021-aeeb-00ccfb528cf7" />
