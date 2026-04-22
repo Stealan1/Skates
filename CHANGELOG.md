@@ -1,3 +1,6 @@
+## v3.5.1 (2026-04-22)
+increase ocr
+
 ## v3.5.0 (2026-04-21)
 Steam Login support
   You can now log in D2R accounts via Steam directly from the Hub. Add your Steam username and password to an account,
