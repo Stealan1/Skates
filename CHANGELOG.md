@@ -1,3 +1,6 @@
+## v3.5.2 (2026-04-30)
+Fixed some "Wrong license" issues
+
 ## v3.5.1 (2026-04-22)
 increase ocr
 
