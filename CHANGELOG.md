@@ -1,3 +1,6 @@
+## v3.6.0-nightly.20260504 (2026-05-04)
+
+
 ## v3.5.2 (2026-04-30)
 Fixed some "Wrong license" issues
 
