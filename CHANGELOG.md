@@ -1,3 +1,10 @@
+## v3.6.0-nightly.20260505 (2026-05-05)
+Added better steam
+More macros
+Better team funcs
+Ladder reset (chars moved to NL)
+Other bits and pieces
+
 ## v3.6.0-nightly.20260504 (2026-05-04)
 
 
