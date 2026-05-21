@@ -1,3 +1,56 @@
+## v4.0.1 (2026-05-21)
+Changelog — Major System Update
+This update brings a lot of improvements across the app, especially around window handling, onboarding, Steam loading, and setup flow.
+
+Window setup is now much easier
+A new window management system has been added.
+
+From the overview, click Window in the pill menu to open the window setup tools. From there, you can:
+
+Assign window positions to specific roles
+Choose where each window should be placed - even pull in app!
+Save your window layout
+Stack windows
+Spread windows across your desktop
+Move windows “away” from the desktop while still keeping them active
+This is still a work in progress, but it should already make setting up your layout much easier.
+
+“Away” mode and renderless handling
+You can now move windows away from the visible desktop. When doing this, you will still get a tooltip preview so you can see what is happening in the window.
+
+The game still renders while in this mode, so it will still use some GPU and CPU.
+
+The bigger improvement is the new renderless handling for inactive accounts. When an account is inactive, the app can reduce GPU and CPU usage and clear RAM cache. This makes the inactive game act more like a placeholder, freeing up more resources for your main game.
+
+This can still be a little glitchy on weaker systems, especially when windows need to re-render, but for everyday use it should be very useful.
+
+Better OCR for character login
+Character name OCR has been improved.
+
+This should make login and character detection more reliable than before.
+
+New onboarding flow
+The app now has a full new onboarding experience.
+
+This should make it much easier for new users to understand the app and get started correctly. You can restart the onboarding anytime from Settings if you want to go through it again.
+
+Steam loader improved
+The Steam loader has been updated.
+
+Steam can now run fully headless, while the games launch and run like normal game windows. This should make the setup cleaner, lighter, and easier to work with.
+
+New hotkeys and quality improvements
+A few new hotkeys and smaller improvements have been added across the app.
+
+You may also notice new buttons and tools while clicking around, including a Create button.
+
+Character and team creation
+With the new ladder coming, character creation has been made easier.
+
+You can now create characters automatically by using the new create tools. There are also improvements for batch creation of teams, making it faster to prepare full setups.
+
+This is a big update with many changes under the hood. Some parts are still being refined, but the app should now be easier to set up, lighter to run, and smoother to use.
+
 ## v4.0.0 (2026-05-21)
 
 
