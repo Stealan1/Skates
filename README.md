@@ -1,4 +1,6 @@
 Link to discord: https://discord.gg/GttDAsrQP8
+Latest test release: https://github.com/Stealan1/Skates/releases/tag/test-release
+Latest beta release:
 
 # Skates D2R Hub
 
