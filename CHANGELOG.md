@@ -1,3 +1,94 @@
+## v4.1.0 (2026-05-27)
+Changelog — v4.1.0
+
+  This update brings major improvements to character login, account loading, team setup, window handling, and the macro
+  system.
+
+  ---
+  Smarter character selection
+
+  Character login has been rebuilt from the ground up.
+
+  The app now reads your character list directly from game memory as soon as each account loads, so it always knows
+  which characters are on each account without needing you to set anything up manually.
+
+  For accounts where a character template hasn't been built yet, the app can now use AI-powered detection (Gemini
+  Vision). If enabled in Settings, it sends a screenshot of the character select screen to Gemini, finds your character
+  automatically, and saves a template so future logins are instant. This is an optional feature that degrades gracefully
+   — if it fails for any reason, the existing OCR method takes over.
+
+  The quick launch slot character selector is now a dropdown, so you can pick from your known characters instead of
+  typing a name manually.
+
+  ---
+  Teams and account setup
+
+  Setting up teams is now much easier, especially when characters don't exist yet.
+
+  When adding accounts to a team, every row now starts deselected by default, so you're never accidentally confirming
+  things you didn't intend to.
+
+  If an account has no characters available for a team slot, you'll now see a "Generate character" button right there in
+   the row. Clicking it saves a pending character with your team's Ladder/Hardcore/Expansion settings. When that account
+   loads next time, the character is created automatically before entering the lobby — no extra steps needed.
+
+  A new Map Characters screen makes it easier to bulk-assign character names to your whole team at once.
+
+  ---
+  Window setup improvements
+
+  A few important bugs in window handling have been fixed:
+
+  - Fullscreen and maximized windows are no longer knocked back to windowed mode when an account loads. The app now
+  detects this and skips repositioning those windows.
+  - Your windowed resolution is no longer overwritten. Previously the app would force 1280×720 every time. Now it only
+  enforces that as a minimum floor — if you're running higher, that's preserved.
+  - Frameless (borderless) mode no longer shows a white border. Three layers of suppression have been added to make sure
+   the border is fully gone across both Windows 10 and Windows 11.
+  - When switching between framed and frameless mode, your client area is now preserved — the window stays the same
+  visible size, with the frame math handled correctly.
+
+  The window layout dialog also has new options:
+  - A Renderless mode button that stacks windows and stops GPU rendering on idle Creator/Filler windows — saves
+  resources when those windows aren't doing anything
+  - A Frameless toggle directly in the layout dialog so you can switch mode without going into Settings
+  - Per-role resolution settings are now editable right in the dialog
+
+  ---
+  Macro system — role-aware hotkeys
+
+  Macros can now be bound to specific roles.
+
+  You can assign a hotkey to only fire for Main accounts, or only for Fillers, or any other role. The hotkey listener
+  dispatches only to instances that match the registered role, so your team setup stays cleanly separated.
+
+  The macro builder has also been improved with better image step labels, move/offset support, and improved template
+  matching for custom templates including non-English filenames.
+
+  ---
+  Battle.net token fetching
+
+  The account dialog now includes a "Get Token" button that fetches a Battle.net token automatically in a headless
+  browser session. If your account has two-factor authentication, a security code dialog will pop up asking for the code
+   from your email.
+
+  ---
+  Activity log improvements
+
+  The activity log that gets attached to support tickets now sends the full session log as a file attachment to Discord,
+   making it easier to diagnose issues. Email addresses and game names/passwords are automatically scrubbed from the log
+   before it's sent.
+
+  ---
+  Under the hood
+
+  A lot of internal work has been done to make the app more stable and reliable as team sizes grow. Character creation
+  during batch loading, charlist scanning, and the account loading pipeline have all been rebuilt to handle more
+  accounts more cleanly.
+
+  Some parts of the DPI and coordinate pipeline for multi-monitor setups are still being refined — the design work for
+  that is done, and the implementation will land in the next update.
+
 ## v4.0.1 (2026-05-21)
 Changelog — Major System Update
 This update brings a lot of improvements across the app, especially around window handling, onboarding, Steam loading, and setup flow.
