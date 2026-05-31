@@ -1,3 +1,10 @@
+## v4.2.0 (2026-05-31)
+Automatic character scan
+Memory based char select
+Char tab in accounts
+
+Maybe more.. Yeah, more.. Some more.
+
 ## v4.1.1 (2026-05-27)
 Changelog — v4.1.0
 
