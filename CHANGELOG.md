@@ -1,3 +1,6 @@
+## v4.2.1 (2026-06-01)
+Fix chars not being visible
+
 ## v4.2.0 (2026-05-31)
 Automatic character scan
 Memory based char select
