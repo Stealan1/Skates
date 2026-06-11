@@ -1,3 +1,6 @@
+## v4.2.2-nightly.20260611 (2026-06-11)
+
+
 ## v4.2.1 (2026-06-01)
 Fix chars not being visible
 
