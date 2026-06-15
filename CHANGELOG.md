@@ -1,3 +1,6 @@
+## v4.2.2 (2026-06-15)
+Small edits and fixes across the board
+
 ## v4.2.2-nightly.20260612 (2026-06-12)
 
 
