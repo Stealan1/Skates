@@ -1,3 +1,6 @@
+## v4.2.4 (2026-06-20)
+fixed login issue for new users
+
 ## v4.2.3 (2026-06-20)
 
 
