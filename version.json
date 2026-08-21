@@ -1,1 +1,1 @@
-{"version":"5.0.1.1","url":"https://github.com/Stealan1/Skates/releases/download/v5.0.1.1/SkatesD2RHub.zip","notes":"Auto-pot + Chicken guard, live map settings, center full-screen, panel-aware hide, hotkey reorg (Alt+Tab safe), Items UI.","nightly":false}
+{"version":"5.0.1.2","url":"https://github.com/Stealan1/Skates/releases/download/v5.0.1.2/SkatesD2RHub.zip","notes":"Fix: Map Hack map-gen failure on machines other than the build machine (PyArmor __file__ path resolution).","nightly":false}
