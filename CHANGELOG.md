@@ -1,3 +1,27 @@
+## v5.0.2.0 (2026-08-23)
+### Login & connectivity
+- New **"Test the connection"** button on the login screen: when the app can't
+  reach the licence server, it now tells you exactly WHY — DNS filtering,
+  firewall block on the app, antivirus HTTPS inspection, proxy — with a
+  copyable report you can send us, and step-by-step fix suggestions.
+- New web account page: **https://fleet.82-70-58-18.sslip.io/account** —
+  create your account or test your sign-in from any browser when the app
+  itself is being blocked on your PC. All "can't reach the server" messages
+  now point you to both.
+
+### Map Hack (D2 LoD files)
+- The D2 runtime the installer places next to the app is now found
+  automatically — fresh installs no longer get the "D2 LoD Files Not Found"
+  prompt for files they already have.
+- Fixed the in-app Download/Repair flow: a successful download could leave the
+  app still thinking the files were missing (prompt every launch).
+- Pointing the setting at a retail Diablo II install is now rejected up front
+  with a clear message — a retail install never worked for map generation and
+  previously failed silently.
+
+### Server
+- Licence server mirrors the game-assets download (installer fallback).
+
 ## v4.2.4 (2026-06-20)
 fixed login issue for new users
 
