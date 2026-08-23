@@ -1,3 +1,19 @@
+## v5.0.3.0 (2026-08-23)
+### Installer
+- **Much smaller installer** (~140 MB, down from ~470 MB): the D2 LoD files
+  the Map Hack needs are no longer downloaded during installation. If you
+  don't use Map Hack, you never need them.
+
+### Map Hack (D2 LoD files)
+- The D2 runtime is now offered on first access to the SkateAssist tab —
+  download it if you want Map Hack, skip it if you don't. You choose where
+  it lives.
+- The download is checksum-verified against the server before anything is
+  extracted, and a corrupt transfer is deleted and reported instead of
+  leaving a broken install behind.
+- Map Data settings: "Download/Repair D2 LoD Files" uses the same verified
+  download and now defaults to a folder that is always writable.
+
 ## v5.0.2.0 (2026-08-23)
 ### Login & connectivity
 - New **"Test the connection"** button on the login screen: when the app can't
