@@ -1,3 +1,12 @@
+## v5.0.5.0 (2026-08-24)
+**Downloading the D2 LoD files now shows its progress.**
+
+When you clicked Download on the D2 LoD files and picked where to save them, the window could look like it had stopped doing anything at all — the app froze for the whole length of the download, and if the server didn't say how big the file was, the progress never updated once.
+
+The download now runs in the background with a real progress bar: percent, megabytes and speed while it downloads, and a file counter while it extracts. There is a Cancel button that actually stops the transfer. The optional mods in the setup wizard got the same treatment — their download shows progress now too.
+
+Everything from 5.0.4.0 is included; only this changed.
+
 ## v5.0.4.0 (2026-08-23)
 ### SkateAssist
 - SkateAssist requires the D2 LoD files — it cannot be used without them.
