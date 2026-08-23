@@ -1,3 +1,13 @@
+## v5.0.4.0 (2026-08-23)
+### SkateAssist
+- SkateAssist requires the D2 LoD files — it cannot be used without them.
+  Opening the SkateAssist tab always checks for them and offers the download
+  (with a choice of where to save) if they're missing; Start is blocked until
+  they're installed. The prompt re-appears on every tab visit until a valid
+  runtime is in place — cancelling no longer hides it.
+- The prompt text now says plainly: link an existing Skates D2 folder or
+  download the verified files.
+
 ## v5.0.3.0 (2026-08-23)
 ### Installer
 - **Much smaller installer** (~140 MB, down from ~470 MB): the D2 LoD files
