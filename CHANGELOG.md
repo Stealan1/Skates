@@ -1,3 +1,16 @@
+## v5.0.6.0 (2026-08-25)
+Improved login
+
+Improved game management
+
+
+
+Still to go: 
+
+MH useable for all
+
+Difficulty setting for creation
+
 ## v5.0.5.0 (2026-08-24)
 **Downloading the D2 LoD files now shows its progress.**
 
