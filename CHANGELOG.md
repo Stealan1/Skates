@@ -1,3 +1,16 @@
+## v5.0.7.0 (2026-08-25)
+**Map Hack now renders on the GPU — and it actually works in this build.**
+
+The minimap overlay was rebuilt to draw on the GPU instead of the CPU, which was the main source of the stutter some of you were seeing. A packaging bug meant the overlay could fail outright with "overlay unavailable" on some machines — that's fixed, so Map Hack should now come up reliably for everyone.
+
+**Monsters, NPCs, mercenaries, and other players now show up as separate markers**, instead of only monsters being visible. Purely decorative NPCs (background characters with no function) are filtered out of the NPC list.
+
+**"Next area" markers are more accurate.** The line pointing to the next area's entrance now points at a real, walkable crossing instead of drifting into the middle of the neighboring area — and it stays put instead of following you around as you move.
+
+**Clearer errors when map generation fails.** If Map Hack can't build the map for your seed, the error you see now says what actually went wrong instead of cutting off mid-message.
+
+Everything from 5.0.6.0 is included; only the above changed.
+
 ## v5.0.6.0 (2026-08-25)
 Improved login
 
