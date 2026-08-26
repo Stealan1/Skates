@@ -1,3 +1,6 @@
+## v5.0.8.0 (2026-08-26)
+Improvements? Maybe?
+
 ## v5.0.7.0 (2026-08-25)
 **Map Hack now renders on the GPU — and it actually works in this build.**
 
