@@ -1,3 +1,10 @@
+## v5.0.10.0 (2026-09-01)
+Fixed UI Stutter
+
+Changed login
+
+Enhanced MH speed
+
 ## v5.0.10.0-nightly.20260831 (2026-08-31)
 test
 
