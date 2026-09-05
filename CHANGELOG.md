@@ -1,3 +1,8 @@
+## v5.0.11.0-nightly.20260905 (2026-09-05)
+Big rewrite of MH
+
+UI fixes
+
 ## v5.0.10.0 (2026-09-01)
 Fixed UI Stutter
 
