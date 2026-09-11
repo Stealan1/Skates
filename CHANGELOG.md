@@ -1,3 +1,12 @@
+## v5.0.12.0 (2026-09-11)
+Fixed barb hook
+
+Changed some debug logging
+
+Increased separation between windows
+
+Decreased stutter from MH
+
 ## v5.0.11.0 (2026-09-06)
 \*\*This is the big one. Thank you for waiting.\*\*
 
