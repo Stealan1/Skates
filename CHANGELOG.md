@@ -1,3 +1,6 @@
+## v5.0.13.0 (2026-09-13)
+Fixed Memory Management
+
 ## v5.0.12.0 (2026-09-11)
 Fixed barb hook
 
