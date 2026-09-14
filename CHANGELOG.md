@@ -1,3 +1,10 @@
+## v5.0.14.0 (2026-09-14)
+MH Update
+
+TZ zones now show current + next
+
+Dclone updates (can be set in settings)
+
 ## v5.0.13.0 (2026-09-13)
 Fixed Memory Management
 
