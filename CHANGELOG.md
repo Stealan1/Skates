@@ -1,3 +1,18 @@
+## v5.0.15.0 (2026-09-24)
+Increased loading stability
+
+Added NPC and World coord functionality to Macro
+
+Fixed bobarb --> Now he goes to any wp you have
+
+Auto bo --> Goes auto to your loc 1 time pr game when at a wp and bo's
+
+Barb goes back to town again
+
+
+
+All this is in settings
+
 ## v5.0.14.0 (2026-09-14)
 MH Update
 
