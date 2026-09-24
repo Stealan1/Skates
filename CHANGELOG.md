@@ -1,3 +1,10 @@
+## v5.0.16.0 (2026-09-24)
+sorry for fast update interval
+
+
+
+FIXED TOKEN AUTO
+
 ## v5.0.15.0 (2026-09-24)
 Increased loading stability
 
