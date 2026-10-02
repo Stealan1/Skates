@@ -1,3 +1,40 @@
+## v5.0.17.0 (2026-10-02)
+Update: hotkeys, Steam, and a much better Items tab
+
+
+
+Short version: your hotkeys work properly again, Steam stops getting stuck on "looking for updates", and the Items tab got a big upgrade, including your Chronicle progress.
+
+
+
+Fixed
+
+\- Hotkeys work again from macro keyboards and remote screens. Keys from a macro keyboard (F13, F14, F15 and so on) and from remote screens were being ignored. They work now.
+
+\- Hotkeys no longer need the game in front. You can keep games in the background and still launch new ones. The only exception is Tab for the map: it works with the game in front and you are inside a game. In the lobby and other programs, Tab does what it always did.
+
+\- "Steam is looking for updates" when starting games. There is a new Help tile, Steam won't load. Press its button and the app stops Steam checking for updates on every launch. A second button turns it back on so you can update Steam yourself.
+
+\- Exports say what items are. Export CSV and TXT now include the real properties and which account each item belongs to. A failed export now shows a message.
+
+\- Jewels and special items look right. Jewels were drawn as diamonds and now show their gold-framed look. Annihilus, the Hellfire Torch and other unique and set items now show their own picture.
+
+
+
+New
+
+\- The Items tab List view is now a proper catalogue. One line per item with a picture, sorting, and the in-game look of an item when you click it. It has filters for quality, type and flags, Softcore / Hardcore and Ladder / Non-ladder buttons, an account picker, and identical items grouped with a quantity. Runes, gems and materials stay out of the way until you ask for them.
+
+\- Chronicle. A new button on the Items tab shows each account's Chronicle progress for sets, uniques and runewords, read straight from the game when a character joins, so it matches what the game shows. Click a percentage to see what's missing. Ladder-only runewords and the new Warlock runewords are marked. An account shows "Not read yet" until one of its characters has joined a game.
+
+
+
+Good to know
+
+\- I tested the hotkey fix on my own computer, not with a real macro keyboard or remote screen yet. If something still doesn't work, open a ticket and tell me which keyboard or remote tool you use.
+
+\- The ladder-only marks follow the current season, so I'll update them when a new one starts.
+
 ## v5.0.16.0 (2026-09-24)
 sorry for fast update interval
 
