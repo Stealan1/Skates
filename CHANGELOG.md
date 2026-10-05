@@ -1,3 +1,89 @@
+## v5.1.0.0 (2026-10-05)
+**Update: Chronicle gets its own page, sale posts in one click, and a new theme**
+
+Short version: the Chronicle moved into the menu and now tells you which runewords you can make. The Items tab can write a ready-to-paste sale post. There is a new colour theme, and a round of small fixes to buttons, scrollbars and tooltips.
+
+---
+
+## New
+
+**Chronicle has its own page**
+Chronicle is now in the left menu, between Items and Settings. Click an account's Sets, Uniques or Runewords and the list opens right there in the page. **Back** takes you to your accounts again.
+
+- **Sets** are folded into their set. Each set is one line with your count ("Angelical Raiment · 1 of 4"). Click it to see the pieces.
+- **Uniques** have filter buttons: Normal / Exceptional / Elite, and Weapons, Armors, Helmets, Gloves, Boots, Belts, Shields, Jewelry, Charms, Jewels.
+- **The eight Rainbow Facets** are now told apart ("Cold Lvl", "Cold Die" and so on), so you can see exactly which ones you are missing.
+- Accounts that have not been read yet are tucked into one line at the bottom, so your list stays short.
+
+**Which runewords can I make?**
+The Runewords list now shows, for every runeword:
+
+- **Made in**: the base it goes in and how many sockets it needs ("Sword, Shield · 4 sockets").
+- **Can make**: a green check if you have the runes right now, an arrow up if you can get there by upgrading runes in the cube, a dash if not. Hover the arrow to see the recipe ("2x Sur + Flawless Amethyst = Ber").
+- **L/NL**: whether the runes are on Ladder, Non-ladder or both.
+- Runewords you can make are sorted to the top, and two buttons show only "Can make now" or only "If you upgrade runes in cube".
+
+**Mark what you care about**
+Every Chronicle list has a star. Click it to highlight an item in gold, for example a runeword you plan to make. The **Marked** button shows only your starred ones. Your stars are remembered.
+
+**Sale post in one click: Export JSP**
+In Items > List there is a new **Export JSP** button. It writes a ready-to-paste sale post:
+
+- One short line per item, showing only what actually rolls on it.
+- Written the way traders write it: `Mirrored Boots: 60 Def / 30 FRW / 10 FHR / 40 CR / 33 LR / 40 FR`
+- Well-known items and bases use their trade names: BK, SoJ, Shako, HotO, CtA, AP, CS, Mon and more. So a line reads `Enigma AP` or `Spirit Mon`.
+- Sorted into sections: Runes, Gems, Materials, Runewords, Uniques, Sets, Rares, Crafted, Magic, Bases. Inside each section the items are grouped by kind (Boots, Rings, Belts and so on).
+- Only what is in your stash, shared stash and materials tab. What your characters are wearing or carrying is left out.
+- Identical items are counted ("3x BK").
+
+**Make the sale post yours: Settings > Salespost Setup**
+A new tab in Settings where you decide how your post looks:
+
+- The separator between properties: `/`, `|`, `;`, or your own.
+- Whether the amount goes in front or behind: "5x Cham Rune" or "Cham Rune x5".
+- Every property and every item name is listed with a suggested short form. Type your own next to it and yours is used instead. Empty it again to go back to the suggestion.
+- The short forms you add help me make the suggestions better for everyone.
+
+**Exports follow your filters**
+Export CSV and Export TXT now write exactly what the list is showing. Softcore / Hardcore, Ladder / Non-ladder, account, the filter buttons and the search box all count. Before, they always wrote everything.
+
+**Exports land in Downloads**
+All three exports now save straight into your Downloads folder, with no extra windows to click through. The text exports open in Notepad right away, and a line next to the buttons tells you the file name.
+
+**New theme: Reign of the Warlock**
+A fourth colour theme in Settings > Appearance: wine black, copper text and magenta buttons. Your current theme stays as it is unless you switch.
+
+**Map overlay: show only what rolls**
+A new switch in Item Tooltips, "Only stats that vary". With it on, a unique, set item or runeword on the ground shows its name and only the properties that can differ from one copy to the next. Handy for judging a drop at a glance. It is off until you turn it on.
+
+---
+
+## Fixed
+
+- **Buttons with cut-off text.** I went through every page. Export CSV / TXT, the Type filter buttons in Items, "Game Hosting Service" in the menu, the calendar arrows in Hosting and several small buttons in Settings now show their full text. The filter rows in Items wrap onto a second line when they need to.
+- **Scrollbars you could not see.** The scrollbar now uses your theme's colour and lights up when you point at it.
+- **Chronicle opening empty.** Opening Chronicle as the first thing after start could show an empty page until you clicked it again. It fills on the first click now.
+- **Themes apply at once.** Overview, Hosting and Macro Maker used to keep some old colours until a restart. They change the moment you pick a theme.
+- **Item tooltips look like the game again.** The item preview in Items, and the tooltip over items on the ground, are back in the game's own font.
+- **Runewords on the ground show their name.** A dropped runeword now says which runeword it is, not just "Superior Flail".
+- **Unidentified items keep their secret.** An unidentified unique or set item on the ground shows its base name, as it does in the game, instead of giving away what it is.
+- **Tooltip numbers.** Two-handed weapons were missing their damage line, and life and mana per level showed far too high on some runewords. Both are right now.
+- **"After BO - Exit & rejoin"** in Settings > Timing was missing its "&".
+- **New logo** in the small popup that shows when a hotkey fires, and the logo in the menu now sits in a slowly turning rune ring.
+- **"Owned" is now "Found" and "Made"** in the Chronicle, because the Chronicle counts what you have found or made, not what you are holding right now.
+
+---
+
+## Good to know
+
+- **Can make** counts your runes only. It does not check whether you have the base item, or the gems a cube upgrade needs.
+- Runes are counted per account, and Ladder and Non-ladder are kept apart, the same as in the game.
+- In a sale post, magic and rare items are written by their base name ("Mirrored Boots"). The section heading tells you whether it is magic, rare or crafted.
+- The trade names and short forms are suggestions. If you write something differently, change it once in Settings > Salespost Setup and it sticks.
+- Runes, gems and materials are included in a sale post when no filter button is on. Press a filter button and the post is exactly what the list shows.
+
+As always: if something looks wrong, open a ticket and send a screenshot. Your feedback decides what I work on next.
+
 ## v5.0.17.0 (2026-10-02)
 Update: hotkeys, Steam, and a much better Items tab
 
