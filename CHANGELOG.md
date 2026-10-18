@@ -1,3 +1,6 @@
+## v5.1.1.0 (2026-10-18)
+The app now checks skated2r.com for updates first, and falls back to GitHub. No other changes in this release.
+
 ## v5.1.0.0 (2026-10-05)
 **Update: Chronicle gets its own page, sale posts in one click, and a new theme**
 
