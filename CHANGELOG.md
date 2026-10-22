@@ -1,3 +1,36 @@
+## v6.0.0.0 (2026-10-23)
+**Update 6.0: the last update for this app, a better map and a smaller download**
+
+Short version: this is the last update this app gets. A new Skates app comes after it, and you can download it at skated2r.com/p8. This app keeps working for now, but please move over when you can. The update itself brings a new map, a much smaller download and two small fixes.
+
+## New
+
+**This app is being retired**
+- When the app opens it tells you this is the last update and where the new app is.
+- Press **Get the new app** to open skated2r.com/p8, or **Later** to close the message.
+
+**A new map**
+- The map is now drawn on your own PC from your own Diablo II: Resurrected install.
+- You do not have to do anything. The first map of a game takes a few seconds to appear, and after that each area appears as you need it.
+- If the app cannot find your game, it tells you so on screen instead of showing an empty map.
+
+**A smaller download**
+- The installer is about 46 MB smaller (143 MB to 97 MB) and the installed app about 144 MB smaller. Parts of the app that were no longer used were taken out. Nothing you use is removed.
+
+**Tooltips on the ground for books and heads**
+- Hover a plain or superior Warlock book or Necromancer head lying on the ground and the tooltip now shows, with its skill bonuses and sockets. Before, only magic and better ones showed one.
+
+## Fixed
+
+- **The mouse stuck in the game after a macro.** After you switched the left-click spam hotkey off, or a macro of yours finished, the game could keep the mouse "locked" for about ten seconds. The mouse now goes back to the game the moment the macro ends.
+
+## Good to know
+
+- The new Skates app is a separate download. It installs next to this one and does not replace it.
+- This app will not get further updates.
+
+Tickets and feedback are always welcome.
+
 ## v5.1.1.0 (2026-10-18)
 The app now checks skated2r.com for updates first, and falls back to GitHub. No other changes in this release.
 
