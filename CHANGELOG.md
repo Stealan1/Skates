@@ -1,3 +1,10 @@
+## v6.0.1.0 (2026-11-02)
+# What changed
+
+- Every module and folder name in `_internal/` is now scrambled (opaque). The DRLG model's method-naming leak via plain filenames (`maze.py`, `presets.py`, `wild_early.py`, `tiles.py`, `obj_exits.py`) is gone.
+- Installer now wipes `{app}\*` before writing, so an upgrade can never leave a stale import of a renamed module behind.
+- Dev leftovers (`.spec` files, dev `README.md` / `project_instruction.md`, dated `.bak-*` backups) no longer ship.
+
 ## v6.0.0.0 (2026-10-23)
 **Update 6.0: the last update for this app, a better map and a smaller download**
 
