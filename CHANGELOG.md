@@ -1,3 +1,8 @@
+## v6.0.2.0 (2026-11-09)
+Offset update
+
+Updated for the latest Diablo II: Resurrected patch.
+
 ## v6.0.1.0 (2026-11-02)
 # What changed
 
