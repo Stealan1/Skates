@@ -1,3 +1,19 @@
+## v6.0.3.0 (2026-11-12)
+**Update: clearer help when the map cannot read your game files**
+
+Short version: some of you got an error on the map saying the game files could not be read. The app now tries harder to read them, and if they still cannot be read it tells you exactly what to do.
+
+## Fixed
+
+- **Map: "game files could not be read".** The app now tries every place the game keeps a file before giving up, so more installs work without any action.
+- **A clear message when it still fails.** It now says: Close D2R. In Battle.net, open Diablo II: Resurrected, click the gear icon, and choose Scan and Repair. Start the app again.
+
+## Good to know
+
+- If you see that message, the repair in Battle.net is what fixes it. Running the app as administrator does not help.
+
+Tickets and feedback are always welcome. Use **REQUEST FEATURE** in the top bar.
+
 ## v6.0.2.0 (2026-11-09)
 Offset update
 
