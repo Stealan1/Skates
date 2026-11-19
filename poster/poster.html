@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Skates P8 poster</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Hanken+Grotesk:wght@400;500;600;700&display=block">
+<!-- Skates P8 poster. Edited in the CSM (Poster page), stored in Stealan1/Skates poster/.
+     The renderer (poster/render.py) puts the data in window.POSTER, the realm in window.POSTER_REALM
+     and the folder of logo.png in window.POSTER_BASE, then screenshots .poster at its measured height. -->
+<style>
+  :root{
+    --bg:#0b0507; --panel:#1a0a10; --panel2:#24101a; --sunken:#10060a;
+    --border:rgba(224,166,124,.30); --border-soft:rgba(224,166,124,.18);
+    --text:#f1dbd2; --text-dim:#c2a9b4; --faint:#a08a92;
+    --accent:#e0a67c; --accent-strong:#f4e1c8;
+    --mag:#e05ac6; --mag2:#9c207b; --vio:#6a1f8a;
+    --green:#72bd72; --yellow:#e3c56b;
+    --font-ui:"Hanken Grotesk","Segoe UI",system-ui,sans-serif;
+    --font-display:"Cinzel","Palatino Linotype","Book Antiqua",Georgia,serif;
+  }
+  html,body{margin:0;padding:0;background:var(--bg);}
+  body{color:var(--text);font-family:var(--font-ui);-webkit-font-smoothing:antialiased;}
+  .poster{position:relative;width:1400px;overflow:hidden;padding:0 0 56px;
+    background:
+      radial-gradient(900px 620px at 50% 0%, rgba(156,32,123,.55), transparent 70%),
+      radial-gradient(700px 520px at 8% 38%, rgba(106,31,138,.40), transparent 70%),
+      radial-gradient(700px 520px at 95% 62%, rgba(224,90,198,.22), transparent 70%),
+      radial-gradient(1000px 500px at 50% 100%, rgba(106,31,138,.45), transparent 70%),
+      var(--bg);}
+  /* smoke */
+  .poster::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.55;
+    background:
+      repeating-radial-gradient(circle at 20% 30%, rgba(224,90,198,.05) 0 2px, transparent 2px 40px),
+      repeating-radial-gradient(circle at 80% 70%, rgba(178,148,234,.05) 0 3px, transparent 3px 60px);
+    filter:blur(1px);}
+  .inner{position:relative;padding:0 72px;}
+  .sec{margin-top:34px;}
+  .sec-free + .sec-cta, .sec-chips + .sec-intro, .sec-intro + .sec-chips{margin-top:22px;}
+  .hero{text-align:center;padding-top:28px;}
+  .logo{width:560px;height:560px;display:block;margin:0 auto -36px;
+    -webkit-mask-image:radial-gradient(circle at 50% 48%, #000 56%, transparent 71%);
+            mask-image:radial-gradient(circle at 50% 48%, #000 56%, transparent 71%);
+    filter:drop-shadow(0 0 40px rgba(224,90,198,.55));}
+  .kicker{font-family:var(--font-display);letter-spacing:.32em;text-transform:uppercase;color:var(--text-dim);font-size:22px;margin:0;}
+  .tagline{font-family:var(--font-display);font-weight:900;font-size:68px;line-height:1.05;margin:14px 0 6px;
+    color:var(--accent-strong);text-shadow:0 0 26px rgba(224,90,198,.75),0 0 60px rgba(156,32,123,.65);}
+  .nirvana{font-family:var(--font-display);font-size:30px;letter-spacing:.5em;color:var(--mag);
+    text-shadow:0 0 18px rgba(224,90,198,.9);margin:6px 0 0;padding-left:.5em;}
+  .card{background:linear-gradient(180deg,rgba(36,16,26,.94),rgba(26,10,16,.94));border:1px solid var(--border);
+    box-shadow:0 18px 40px rgba(0,0,0,.55),0 0 0 1px rgba(0,0,0,.4) inset;}
+  .intro{margin:0;padding:34px 48px;text-align:center;}
+  .intro p{font-family:var(--font-display);font-size:23px;line-height:1.6;margin:0 0 16px;color:#e8c98a;text-shadow:0 0 12px rgba(227,197,107,.18);}
+  .intro.left{text-align:left;}
+  .intro ul{list-style:none;margin:0 0 16px;padding:0;display:inline-block;text-align:left;}
+  .intro.left ul{display:block;}
+  .intro li{font-family:var(--font-display);font-size:23px;line-height:1.5;padding:4px 0 4px 32px;position:relative;
+    color:#e8c98a;text-shadow:0 0 12px rgba(227,197,107,.18);}
+  .intro li::before{content:"";position:absolute;left:6px;top:17px;width:10px;height:10px;transform:rotate(45deg);
+    background:var(--mag);box-shadow:0 0 10px var(--mag);}
+  .intro p:last-child,.intro ul:last-child{margin-bottom:0;}
+  .intro b{color:#ffe3a3;text-shadow:0 0 14px rgba(227,197,107,.45);}
+  .chips{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+  .chip{padding:18px 12px;text-align:center;}
+  .chip .v{font-family:var(--font-display);font-weight:700;font-size:30px;color:var(--accent);
+    text-shadow:0 0 14px rgba(224,166,124,.35);}
+  .chip .l{font-size:16px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-dim);margin-top:4px;}
+  h2{font-family:var(--font-display);font-weight:700;text-transform:uppercase;letter-spacing:.14em;
+    color:var(--accent);font-size:30px;margin:0 0 6px;text-align:center;}
+  .sub{text-align:center;color:var(--text-dim);font-size:17px;letter-spacing:.06em;margin:0 0 18px;}
+  .realm{padding:30px 40px 34px;border-color:rgba(224,90,198,.55);
+    box-shadow:0 0 50px rgba(224,90,198,.18),0 18px 40px rgba(0,0,0,.55);}
+  .realm-tag{display:inline-block;font-family:var(--font-display);font-weight:900;font-size:22px;letter-spacing:.2em;
+    color:#1c090e;background:linear-gradient(90deg,var(--mag),#f08ad8);padding:6px 18px 4px;margin-bottom:12px;
+    box-shadow:0 0 24px rgba(224,90,198,.6);}
+  .realm-head{text-align:center;}
+  .needs{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:8px;}
+  .needs.one{grid-template-columns:1fr;}
+  .need{background:rgba(16,6,10,.85);border:1px solid var(--border-soft);padding:20px 26px;}
+  .need h3{font-family:var(--font-display);font-size:24px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 12px;
+    color:var(--accent-strong);}
+  .need ul{list-style:none;margin:0;padding:0;}
+  .need li{font-size:21px;line-height:1.35;padding:7px 0 7px 26px;position:relative;border-top:1px solid rgba(224,166,124,.10);}
+  .need li:first-child{border-top:0;}
+  .need li{break-inside:avoid;}
+  .needs.one .need ul{columns:2;column-gap:44px;}
+  .need li::before{content:"";position:absolute;left:4px;top:16px;width:9px;height:9px;transform:rotate(45deg);
+    background:var(--mag);box-shadow:0 0 10px var(--mag);}
+  .need .thanks{margin:14px 0 0;color:var(--text-dim);font-size:16px;}
+  .prices{display:grid;gap:18px;}
+  .price{padding:26px 26px 18px;}
+  .price table{width:100%;border-collapse:collapse;}
+  .price td{padding:11px 4px;font-size:21px;border-top:1px solid rgba(224,166,124,.14);}
+  .price td.n{font-family:var(--font-display);font-weight:700;color:var(--accent-strong);text-transform:uppercase;letter-spacing:.04em;}
+  .price td.h{color:var(--text-dim);text-align:center;}
+  .price td.p{text-align:right;font-weight:700;color:var(--accent);white-space:nowrap;}
+  .free{text-align:center;font-family:var(--font-display);font-weight:700;font-size:26px;color:var(--green);
+    text-shadow:0 0 16px rgba(114,189,114,.45);}
+  .cta{text-align:center;}
+  .cta .big{font-family:var(--font-display);font-weight:900;font-size:36px;letter-spacing:.08em;color:var(--accent-strong);
+    text-shadow:0 0 22px rgba(224,90,198,.7);}
+  .cta .small{font-size:22px;color:var(--text-dim);margin-top:10px;}
+</style>
+</head>
+<body>
+<div class="poster" id="poster"><div class="inner" id="inner"></div></div>
+<script>
+(function(){
+  var D = window.POSTER || {};
+  var REALM = String(window.POSTER_REALM || "SCL").toUpperCase();
+  var BASE = window.POSTER_BASE || "";
+  function esc(s){ return String(s == null ? "" : s).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+  /* **bold** in the editor's text is the only markup */
+  function rich(s){ return esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>"); }
+  function list(a){ return (Array.isArray(a) ? a : []).filter(function(x){ return String(x || "").trim(); }); }
+
+  var r = (D.realms || {})[REALM] || {};
+  var items = list(r.items), help = list(r.help);
+  var h = [];
+  h.push('<div class="hero"><img class="logo" src="' + esc(BASE + "logo.png") + '" alt="">');
+  h.push('<p class="kicker">' + esc(D.kicker) + '</p>');
+  h.push('<div class="tagline">' + esc(D.tagline) + '</div>');
+  if (D.nirvana) h.push('<div class="nirvana">' + esc(D.nirvana) + '</div>');
+  h.push('</div>');
+  /* The boxes under the hero, drawn in D.order (the CSM's Layout tab). An unknown name is skipped, a missing one is added at the end. */
+  var S = {}, BOXES = ["intro", "chips", "needs", "pricing", "free", "cta"];
+  /* intro: a line starting with "- " (or a bullet sign) is a bullet; bullets in a row make one list. intro_align "left" left-aligns the box. */
+  S.intro = function(){
+    var p = list(D.intro), o = "", ul = [];
+    if (!p.length) return "";
+    function flush(){ if (ul.length) o += "<ul>" + ul.map(function(x){ return "<li>" + rich(x) + "</li>"; }).join("") + "</ul>"; ul = []; }
+    p.forEach(function(x){ var m = /^\s*[-\u2022]\s+(.*)$/.exec(x); if (m) ul.push(m[1]); else { flush(); o += "<p>" + rich(x) + "</p>"; } });
+    flush();
+    return '<div class="card intro' + (D.intro_align === "left" ? " left" : "") + '">' + o + '</div>';
+  };
+  S.chips = function(){
+    var chips = list(D.chips);
+    return chips.length ? '<div class="chips">' + chips.map(function(c){
+      var parts = String(c).split("|");
+      return '<div class="card chip"><div class="v">' + esc(parts[0].trim()) + '</div><div class="l">' + esc((parts[1] || "").trim()) + '</div></div>';
+    }).join("") + '</div>' : "";
+  };
+  S.needs = function(){
+    if (!items.length && !help.length) return "";
+    var o = '<div class="card realm"><div class="realm-head"><span class="realm-tag">' + esc(r.label || REALM) + '</span>';
+    if (D.needs_intro) o += '<p class="sub">' + esc(D.needs_intro) + '</p>';
+    o += '</div><div class="needs' + ((items.length && help.length) ? '' : ' one') + '">';
+    if (items.length) o += '<div class="need"><h3>' + esc(D.items_title || "Items I need") + '</h3><ul>' + items.map(function(x){ return "<li>" + rich(x) + "</li>"; }).join("") + '</ul></div>';
+    if (help.length) o += '<div class="need"><h3>' + esc(D.help_title || "Help I need") + '</h3><ul>' + help.map(function(x){ return "<li>" + rich(x) + "</li>"; }).join("") + '</ul></div>';
+    o += '</div>';
+    if (D.needs_thanks) o += '<p class="sub" style="margin:16px 0 0">' + esc(D.needs_thanks) + '</p>';
+    return o + '</div>';
+  };
+  S.pricing = function(){
+    var prices = Array.isArray(D.pricing) ? D.pricing : [];
+    if (!prices.length) return "";
+    return '<div class="prices" style="grid-template-columns:repeat(' + prices.length + ',1fr)">' + prices.map(function(p){
+      return '<div class="card price"><h2>' + esc(p.name) + '</h2><p class="sub">' + esc(p.note) + '</p><table>' +
+        (p.rows || []).map(function(row){ return '<tr><td class="n">' + esc(row[0]) + '</td><td class="h">' + esc(row[1]) + '</td><td class="p">' + esc(row[2]) + '</td></tr>'; }).join("") +
+        '</table></div>';
+    }).join("") + '</div>';
+  };
+  S.free = function(){ return D.free ? '<div class="free">' + esc(D.free) + '</div>' : ""; };
+  S.cta = function(){ return (D.cta || D.contact) ? '<div class="cta"><div class="big">' + esc(D.cta) + '</div><div class="small">' + esc(D.contact) + '</div></div>' : ""; };
+  var order = (Array.isArray(D.order) ? D.order : []).filter(function(k){ return BOXES.indexOf(k) >= 0; });
+  BOXES.forEach(function(k){ if (order.indexOf(k) < 0) order.push(k); });
+  order.forEach(function(k){ var o = S[k](); if (o) h.push('<div class="sec sec-' + k + '">' + o + '</div>'); });
+  document.getElementById("inner").innerHTML = h.join("");
+
+  /* The renderer reads data-h once fonts and the logo are in, to size the screenshot. */
+  function done(){ document.body.setAttribute("data-h", String(Math.ceil(document.getElementById("poster").getBoundingClientRect().height))); }
+  var img = document.querySelector(".logo");
+  var imgReady = new Promise(function(res){ if (!img || img.complete) res(); else { img.onload = res; img.onerror = res; } });
+  Promise.all([document.fonts ? document.fonts.ready : Promise.resolve(), imgReady]).then(done);
+})();
+</script>
+</body>
+</html>
