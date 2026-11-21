@@ -1,97 +1,4 @@
 {
-  "kicker": "",
-  "tagline": "Full games. No hustle. No hassle.",
-  "nirvana": "The original P8 service",
-  "intro": [
-    "You make your game and I fill it up: **players 8, in seconds**.",
-    "**More** monsters, **more** experience, **more** drops, every single run.",
-    "No lobbies to search, no one to wait for, no babysitting. You play your runs at your own pace, and the game is always full.",
-    "**Run like you're offline, with a full game around you.**",
-    "Set up once in a couple of minutes. After that it is there **any time you want to play**, day or night. Start when you like, stop when you're done."
-  ],
-  "chips": [
-    "< 5 s | new game to full",
-    "Battle Orders | Limited Availability",
-    "Your game | your rules your loot",
-    "< 60 s | book to in-game"
-  ],
-  "needs_intro": "Items I need - donations or trade for time",
-  "items_title": "",
-  "help_title": "",
-  "needs_thanks": "",
-  "pricing": [
-    {
-      "name": "Monthly plans",
-      "note": "30 days to use",
-      "rows": [
-        [
-          "Light",
-          "30h",
-          "5,600 FG"
-        ],
-        [
-          "Standard",
-          "60h",
-          "9,900 FG"
-        ],
-        [
-          "Grinder",
-          "120h",
-          "12,700 FG"
-        ]
-      ]
-    },
-    {
-      "name": "Bulk packs",
-      "note": "Valid for 6 months",
-      "rows": [
-        [
-          "Entry",
-          "4h",
-          "1,000 FG"
-        ],
-        [
-          "Small",
-          "10h",
-          "2,500 FG"
-        ],
-        [
-          "Medium",
-          "20h",
-          "4,000 FG"
-        ],
-        [
-          "Large",
-          "40h",
-          "7,000 FG"
-        ]
-      ]
-    },
-    {
-      "name": "Single sessions",
-      "note": "No-pause packs",
-      "rows": [
-        [
-          "Short",
-          "4h",
-          "850 FG"
-        ],
-        [
-          "Mid",
-          "8h",
-          "1,600 FG"
-        ],
-        [
-          "Long",
-          "16h",
-          "2,700 FG"
-        ]
-      ]
-    }
-  ],
-  "free": "First hour is free for new players. Try it and feel the speed.",
-  "cta": "Register once • Play any time • End whenever",
-  "contact": "DM on JSP, comment this topic or join the Discord to register and start.",
   "realms": {
     "HCL": {
       "label": "Hardcore Ladder",
@@ -103,7 +10,109 @@
         "Ist, Io, Lem + 3 BO base",
         "5+ BO magic/rare helmet"
       ],
-      "help": []
+      "help": [],
+      "kicker": "",
+      "tagline": "Full games. No hustle. No hassle.",
+      "nirvana": "The original P8 service",
+      "intro": [
+        "You make your game and I fill it up: **players 8, in seconds**.",
+        "**More** monsters, **more** experience, **more** drops, every single run.",
+        "No lobbies to search, no one to wait for, no babysitting. You play your runs at your own pace, and the game is always full.",
+        "**Run like you're offline, with a full game around you.**",
+        "Set up once in a couple of minutes. After that it is there **any time you want to play**, day or night. Start when you like, stop when you're done."
+      ],
+      "chips": [
+        "< 5 s | new game to full",
+        "Battle Orders | Limited Availability",
+        "Your game | your rules your loot",
+        "< 60 s | book to in-game"
+      ],
+      "needs_intro": "Items I need - donations or trade for time",
+      "items_title": "",
+      "help_title": "",
+      "needs_thanks": "",
+      "pricing": [
+        {
+          "name": "Monthly plans",
+          "note": "30 days to use",
+          "rows": [
+            [
+              "Light",
+              "30h",
+              "5,600 FG"
+            ],
+            [
+              "Standard",
+              "60h",
+              "9,900 FG"
+            ],
+            [
+              "Grinder",
+              "120h",
+              "12,700 FG"
+            ]
+          ]
+        },
+        {
+          "name": "Bulk packs",
+          "note": "Valid for 6 months",
+          "rows": [
+            [
+              "Entry",
+              "4h",
+              "1,000 FG"
+            ],
+            [
+              "Small",
+              "10h",
+              "2,500 FG"
+            ],
+            [
+              "Medium",
+              "20h",
+              "4,000 FG"
+            ],
+            [
+              "Large",
+              "40h",
+              "7,000 FG"
+            ]
+          ]
+        },
+        {
+          "name": "Single sessions",
+          "note": "No-pause packs",
+          "rows": [
+            [
+              "Short",
+              "4h",
+              "850 FG"
+            ],
+            [
+              "Mid",
+              "8h",
+              "1,600 FG"
+            ],
+            [
+              "Long",
+              "16h",
+              "2,700 FG"
+            ]
+          ]
+        }
+      ],
+      "free": "First hour is free for new players. Try it and feel the speed.",
+      "cta": "Register once • Play any time • End whenever",
+      "contact": "DM on JSP, comment this topic or join the Discord to register and start.",
+      "order": [
+        "chips",
+        "intro",
+        "free",
+        "needs",
+        "pricing",
+        "cta"
+      ],
+      "intro_align": "left"
     },
     "SCL": {
       "label": "Softcore Ladder",
@@ -115,21 +124,216 @@
         "Ist, Io, Lem + 3 BO base",
         "5+ BO magic/rare helmet"
       ],
-      "help": []
+      "help": [],
+      "kicker": "",
+      "tagline": "Full games. No hustle. No hassle.",
+      "nirvana": "The original P8 service",
+      "intro": [
+        "You make your game and I fill it up: **players 8, in seconds**.",
+        "**More** monsters, **more** experience, **more** drops, every single run.",
+        "No lobbies to search, no one to wait for, no babysitting. You play your runs at your own pace, and the game is always full.",
+        "**Run like you're offline, with a full game around you.**",
+        "Set up once in a couple of minutes. After that it is there **any time you want to play**, day or night. Start when you like, stop when you're done."
+      ],
+      "chips": [
+        "< 5 s | new game to full",
+        "Battle Orders | Limited Availability",
+        "Your game | your rules your loot",
+        "< 60 s | book to in-game"
+      ],
+      "needs_intro": "Items I need - donations or trade for time",
+      "items_title": "",
+      "help_title": "",
+      "needs_thanks": "",
+      "pricing": [
+        {
+          "name": "Monthly plans",
+          "note": "30 days to use",
+          "rows": [
+            [
+              "Light",
+              "30h",
+              "5,600 FG"
+            ],
+            [
+              "Standard",
+              "60h",
+              "9,900 FG"
+            ],
+            [
+              "Grinder",
+              "120h",
+              "12,700 FG"
+            ]
+          ]
+        },
+        {
+          "name": "Bulk packs",
+          "note": "Valid for 6 months",
+          "rows": [
+            [
+              "Entry",
+              "4h",
+              "1,000 FG"
+            ],
+            [
+              "Small",
+              "10h",
+              "2,500 FG"
+            ],
+            [
+              "Medium",
+              "20h",
+              "4,000 FG"
+            ],
+            [
+              "Large",
+              "40h",
+              "7,000 FG"
+            ]
+          ]
+        },
+        {
+          "name": "Single sessions",
+          "note": "No-pause packs",
+          "rows": [
+            [
+              "Short",
+              "4h",
+              "850 FG"
+            ],
+            [
+              "Mid",
+              "8h",
+              "1,600 FG"
+            ],
+            [
+              "Long",
+              "16h",
+              "2,700 FG"
+            ]
+          ]
+        }
+      ],
+      "free": "First hour is free for new players. Try it and feel the speed.",
+      "cta": "Register once • Play any time • End whenever",
+      "contact": "DM on JSP, comment this topic or join the Discord to register and start.",
+      "order": [
+        "chips",
+        "intro",
+        "free",
+        "needs",
+        "pricing",
+        "cta"
+      ],
+      "intro_align": "left"
     },
     "SCNL": {
       "label": "Softcore Non-Ladder",
       "items": [],
-      "help": []
+      "help": [],
+      "kicker": "",
+      "tagline": "Full games. No hustle. No hassle.",
+      "nirvana": "The original P8 service",
+      "intro": [
+        "You make your game and I fill it up: **players 8, in seconds**.",
+        "**More** monsters, **more** experience, **more** drops, every single run.",
+        "No lobbies to search, no one to wait for, no babysitting. You play your runs at your own pace, and the game is always full.",
+        "**Run like you're offline, with a full game around you.**",
+        "Set up once in a couple of minutes. After that it is there **any time you want to play**, day or night. Start when you like, stop when you're done."
+      ],
+      "chips": [
+        "< 5 s | new game to full",
+        "Battle Orders | Limited Availability",
+        "Your game | your rules your loot",
+        "< 60 s | book to in-game"
+      ],
+      "needs_intro": "Items I need - donations or trade for time",
+      "items_title": "",
+      "help_title": "",
+      "needs_thanks": "",
+      "pricing": [
+        {
+          "name": "Monthly plans",
+          "note": "30 days to use",
+          "rows": [
+            [
+              "Light",
+              "30h",
+              "5,600 FG"
+            ],
+            [
+              "Standard",
+              "60h",
+              "9,900 FG"
+            ],
+            [
+              "Grinder",
+              "120h",
+              "12,700 FG"
+            ]
+          ]
+        },
+        {
+          "name": "Bulk packs",
+          "note": "Valid for 6 months",
+          "rows": [
+            [
+              "Entry",
+              "4h",
+              "1,000 FG"
+            ],
+            [
+              "Small",
+              "10h",
+              "2,500 FG"
+            ],
+            [
+              "Medium",
+              "20h",
+              "4,000 FG"
+            ],
+            [
+              "Large",
+              "40h",
+              "7,000 FG"
+            ]
+          ]
+        },
+        {
+          "name": "Single sessions",
+          "note": "No-pause packs",
+          "rows": [
+            [
+              "Short",
+              "4h",
+              "850 FG"
+            ],
+            [
+              "Mid",
+              "8h",
+              "1,600 FG"
+            ],
+            [
+              "Long",
+              "16h",
+              "2,700 FG"
+            ]
+          ]
+        }
+      ],
+      "free": "First hour is free for new players. Try it and feel the speed.",
+      "cta": "Register once • Play any time • End whenever",
+      "contact": "DM on JSP, comment this topic or join the Discord to register and start.",
+      "order": [
+        "chips",
+        "intro",
+        "free",
+        "needs",
+        "pricing",
+        "cta"
+      ],
+      "intro_align": "left"
     }
-  },
-  "order": [
-    "chips",
-    "intro",
-    "free",
-    "needs",
-    "pricing",
-    "cta"
-  ],
-  "intro_align": "left"
+  }
 }
