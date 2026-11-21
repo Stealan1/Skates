@@ -15,10 +15,10 @@
     "Your game | your rules your loot",
     "< 60 s | book to in-game"
   ],
-  "needs_intro": "",
+  "needs_intro": "Trade or donate in game - just DM me.",
   "items_title": "Items I need",
   "help_title": "Help I need",
-  "needs_thanks": "Trade or donate in game - just DM me.",
+  "needs_thanks": "",
   "pricing": [
     {
       "name": "Monthly plans",
