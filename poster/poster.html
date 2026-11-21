@@ -116,6 +116,7 @@
   function list(a){ return (Array.isArray(a) ? a : []).filter(function(x){ return String(x || "").trim(); }); }
 
   var r = (D.realms || {})[REALM] || {};
+  D = Object.assign({}, D, r);   /* each realm is its own poster; a top-level field is only the old shared fallback */
   var items = list(r.items), help = list(r.help);
   var h = [];
   h.push('<div class="hero"><img class="logo" src="' + esc(BASE + "logo.png") + '" alt="">');
