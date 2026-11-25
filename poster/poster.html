@@ -95,6 +95,10 @@
   .price td.n{font-family:var(--font-display);font-weight:700;color:var(--accent-strong);text-transform:uppercase;letter-spacing:.04em;}
   .price td.h{color:var(--text-dim);text-align:center;}
   .price td.p{text-align:right;font-weight:700;color:var(--accent);white-space:nowrap;}
+  .ptext{margin-top:18px;padding:20px 30px;}
+  .ptext p{font-size:19px;line-height:1.55;margin:0 0 8px;color:var(--text-dim);}
+  .ptext p:last-child{margin:0;}
+  .ptext b{color:var(--accent-strong);}
   .free{text-align:center;font-family:var(--font-display);font-weight:700;font-size:26px;color:var(--green);
     text-shadow:0 0 16px rgba(114,189,114,.45);}
   .cta{text-align:center;}
@@ -160,9 +164,9 @@
       return '<div class="card price"><h2>' + esc(p.name) + '</h2><p class="sub">' + esc(p.note) + '</p><table>' +
         (p.rows || []).map(function(row){ return '<tr><td class="n">' + esc(row[0]) + '</td><td class="h">' + esc(row[1]) + '</td><td class="p">' + esc(row[2]) + '</td></tr>'; }).join("") +
         '</table></div>';
-    }).join("") + '</div>';
+    }).join("") + '</div>' + (list(D.pricing_text).length ? '<div class="card ptext">' + list(D.pricing_text).map(function(x){ return "<p>" + rich(x) + "</p>"; }).join("") + '</div>' : "");
   };
-  S.free = function(){ return D.free ? '<div class="free">' + esc(D.free) + '</div>' : ""; };
+  S.free =function(){ return D.free ? '<div class="free">' + esc(D.free) + '</div>' : ""; };
   S.cta = function(){ return (D.cta || D.contact) ? '<div class="cta"><div class="big">' + esc(D.cta) + '</div><div class="small">' + esc(D.contact) + '</div></div>' : ""; };
   var order = (Array.isArray(D.order) ? D.order : []).filter(function(k){ return BOXES.indexOf(k) >= 0; });
   BOXES.forEach(function(k){ if (order.indexOf(k) < 0) order.push(k); });
