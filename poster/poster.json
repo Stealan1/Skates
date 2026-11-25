@@ -33,70 +33,75 @@
       "needs_thanks": "",
       "pricing": [
         {
-          "name": "Monthly plans",
-          "note": "30 days to use",
+          "name": "Per hour",
+          "note": "List price for 1 h",
           "rows": [
             [
-              "Light",
-              "30h",
-              "5,600 FG"
+              "Bobarb",
+              "1 slot",
+              "100 FG"
             ],
             [
-              "Standard",
-              "60h",
-              "9,900 FG"
+              "Filler",
+              "each",
+              "67 FG"
             ],
             [
-              "Grinder",
-              "120h",
-              "12,700 FG"
+              "Full team",
+              "7 slots",
+              "500 FG"
             ]
           ]
         },
         {
           "name": "Bulk packs",
-          "note": "Valid for 6 months",
+          "note": "Full team, 6 months. After 40h: 175/h",
           "rows": [
             [
-              "Entry",
-              "4h",
-              "1,000 FG"
+              "1h",
+              "list",
+              "500 FG"
             ],
             [
-              "Small",
               "10h",
+              "-50%",
               "2,500 FG"
             ],
             [
-              "Medium",
               "20h",
+              "-60%",
               "4,000 FG"
             ],
             [
-              "Large",
               "40h",
+              "-65%",
               "7,000 FG"
             ]
           ]
         },
         {
-          "name": "Single sessions",
-          "note": "No-pause packs",
+          "name": "Short expiry",
+          "note": "10h pack, use it sooner for less",
           "rows": [
             [
-              "Short",
-              "4h",
-              "850 FG"
+              "3 months",
+              "-10%",
+              "2,250 FG"
             ],
             [
-              "Mid",
-              "8h",
-              "1,600 FG"
+              "1 month",
+              "-30%",
+              "1,750 FG"
             ],
             [
-              "Long",
-              "16h",
-              "2,700 FG"
+              "1 week",
+              "-45%",
+              "1,380 FG"
+            ],
+            [
+              "1 day",
+              "-55%",
+              "1,130 FG"
             ]
           ]
         }
@@ -112,7 +117,12 @@
         "pricing",
         "cta"
       ],
-      "intro_align": "left"
+      "intro_align": "left",
+      "pricing_text": [
+        "**Hours are for a full team**: Bobarb + 6 fillers. A smaller team pays only for its slots: Bobarb is 1/5 of the price, each filler 2/15.",
+        "**The bigger the pack, the cheaper the hour**: 500 FG for 1 h, down to 175 FG per hour from 40 h.",
+        "**Choose hours valid for a shorter period**: 6 months is the full price, 1 day is 55% off."
+      ]
     },
     "SCL": {
       "label": "Softcore Ladder",
@@ -147,70 +157,75 @@
       "needs_thanks": "",
       "pricing": [
         {
-          "name": "Monthly plans",
-          "note": "30 days to use",
+          "name": "Per hour",
+          "note": "List price for 1 h",
           "rows": [
             [
-              "Light",
-              "30h",
-              "5,600 FG"
+              "Bobarb",
+              "1 slot",
+              "100 FG"
             ],
             [
-              "Standard",
-              "60h",
-              "9,900 FG"
+              "Filler",
+              "each",
+              "67 FG"
             ],
             [
-              "Grinder",
-              "120h",
-              "12,700 FG"
+              "Full team",
+              "7 slots",
+              "500 FG"
             ]
           ]
         },
         {
           "name": "Bulk packs",
-          "note": "Valid for 6 months",
+          "note": "Full team, 6 months. After 40h: 175/h",
           "rows": [
             [
-              "Entry",
-              "4h",
-              "1,000 FG"
+              "1h",
+              "list",
+              "500 FG"
             ],
             [
-              "Small",
               "10h",
+              "-50%",
               "2,500 FG"
             ],
             [
-              "Medium",
               "20h",
+              "-60%",
               "4,000 FG"
             ],
             [
-              "Large",
               "40h",
+              "-65%",
               "7,000 FG"
             ]
           ]
         },
         {
-          "name": "Single sessions",
-          "note": "No-pause packs",
+          "name": "Short expiry",
+          "note": "10h pack, use it sooner for less",
           "rows": [
             [
-              "Short",
-              "4h",
-              "850 FG"
+              "3 months",
+              "-10%",
+              "2,250 FG"
             ],
             [
-              "Mid",
-              "8h",
-              "1,600 FG"
+              "1 month",
+              "-30%",
+              "1,750 FG"
             ],
             [
-              "Long",
-              "16h",
-              "2,700 FG"
+              "1 week",
+              "-45%",
+              "1,380 FG"
+            ],
+            [
+              "1 day",
+              "-55%",
+              "1,130 FG"
             ]
           ]
         }
@@ -226,7 +241,12 @@
         "pricing",
         "cta"
       ],
-      "intro_align": "left"
+      "intro_align": "left",
+      "pricing_text": [
+        "**Hours are for a full team**: Bobarb + 6 fillers. A smaller team pays only for its slots: Bobarb is 1/5 of the price, each filler 2/15.",
+        "**The bigger the pack, the cheaper the hour**: 500 FG for 1 h, down to 175 FG per hour from 40 h.",
+        "**Choose hours valid for a shorter period**: 6 months is the full price, 1 day is 55% off."
+      ]
     },
     "SCNL": {
       "label": "Softcore Non-Ladder",
@@ -254,70 +274,75 @@
       "needs_thanks": "",
       "pricing": [
         {
-          "name": "Monthly plans",
-          "note": "30 days to use",
+          "name": "Per hour",
+          "note": "List price for 1 h",
           "rows": [
             [
-              "Light",
-              "30h",
-              "5,600 FG"
+              "Bobarb",
+              "1 slot",
+              "100 FG"
             ],
             [
-              "Standard",
-              "60h",
-              "9,900 FG"
+              "Filler",
+              "each",
+              "67 FG"
             ],
             [
-              "Grinder",
-              "120h",
-              "12,700 FG"
+              "Full team",
+              "7 slots",
+              "500 FG"
             ]
           ]
         },
         {
           "name": "Bulk packs",
-          "note": "Valid for 6 months",
+          "note": "Full team, 6 months. After 40h: 175/h",
           "rows": [
             [
-              "Entry",
-              "4h",
-              "1,000 FG"
+              "1h",
+              "list",
+              "500 FG"
             ],
             [
-              "Small",
               "10h",
+              "-50%",
               "2,500 FG"
             ],
             [
-              "Medium",
               "20h",
+              "-60%",
               "4,000 FG"
             ],
             [
-              "Large",
               "40h",
+              "-65%",
               "7,000 FG"
             ]
           ]
         },
         {
-          "name": "Single sessions",
-          "note": "No-pause packs",
+          "name": "Short expiry",
+          "note": "10h pack, use it sooner for less",
           "rows": [
             [
-              "Short",
-              "4h",
-              "850 FG"
+              "3 months",
+              "-10%",
+              "2,250 FG"
             ],
             [
-              "Mid",
-              "8h",
-              "1,600 FG"
+              "1 month",
+              "-30%",
+              "1,750 FG"
             ],
             [
-              "Long",
-              "16h",
-              "2,700 FG"
+              "1 week",
+              "-45%",
+              "1,380 FG"
+            ],
+            [
+              "1 day",
+              "-55%",
+              "1,130 FG"
             ]
           ]
         }
@@ -333,7 +358,12 @@
         "pricing",
         "cta"
       ],
-      "intro_align": "left"
+      "intro_align": "left",
+      "pricing_text": [
+        "**Hours are for a full team**: Bobarb + 6 fillers. A smaller team pays only for its slots: Bobarb is 1/5 of the price, each filler 2/15.",
+        "**The bigger the pack, the cheaper the hour**: 500 FG for 1 h, down to 175 FG per hour from 40 h.",
+        "**Choose hours valid for a shorter period**: 6 months is the full price, 1 day is 55% off."
+      ]
     }
   }
 }
